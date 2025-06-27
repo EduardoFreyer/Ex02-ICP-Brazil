@@ -5,17 +5,17 @@ actor {
   var texto : Text = "Meu primeiro Dapp";
 
   //Função de soma
-  public func somar(n1 : Nat, n2 : Nat) : Nat {
+  public func somar(n1 : Nat, n2 : Nat) : async Nat {
     n1 + n2;
   };
 
   //Função de subtração
-  public func subtrair(n1 : Nat, n2 : Nat) : Nat {
+  public func subtrair(n1 : Nat, n2 : Nat) : async Nat {
     n1 - n2;
   };
 
   //Função de multiplicação
-  public func multiplicar(n1 : Nat, n2 : Nat) : Nat {
+  public func multiplicar(n1 : Nat, n2 : Nat) : async Nat {
     n1 * n2;
   };
 };
